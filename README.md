@@ -1,6 +1,6 @@
-Build: gradle clean build
-Build without test: gradle clean build -x test
-Run Test: gradle test
-Run Application: java -jar build/libs/transaction-manager-0.0.1-SNAPSHOT.jar
+<b>Build:</b> gradle clean build <br/>
+<b>Build without test:</b> gradle clean build -x test <br/>
+<b>Run Test:</b> gradle test <br/>
+<b>Run Application:</b> java -jar build/libs/transaction-manager-0.0.1-SNAPSHOT.jar <br/>
 
-Base url: http://localhost:8080/transactionservice/transaction/
+<b>Base url:</b> http://localhost:8080/transactionservice/transaction/
