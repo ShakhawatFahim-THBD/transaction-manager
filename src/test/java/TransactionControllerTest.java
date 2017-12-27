@@ -87,7 +87,7 @@ public class TransactionControllerTest extends TransactionTest {
                 .andExpect(jsonPath("$.sum").value(5000)).andDo(print());
     }
 
-//    @Test
+    @Test
     public void test_addTransaction() throws Exception {
         String transactionJsonStr = "{\"amount\" : \"1200\", \"type\" : \"travelling\" }";
         String transactionJsonStr2 = "{\"amount\" : \"-100\", \"type\" : \"food\", \"parentId\" : \"12\" }";
